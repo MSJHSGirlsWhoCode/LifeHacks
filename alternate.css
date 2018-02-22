@@ -1,19 +1,14 @@
 /*
 * multi-line comment
 */
-#navbar{
-  float: right;
-   color: #000000;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 20px;
-   line-height: 0;
-}
 #test{
   background-color: #FF0000;
   float: left;
 
+}
+#second{
+  text-align: center;
+  padding: 10px;
 }
 #test2{
   background-color: #FFFF00;
@@ -26,18 +21,31 @@
   length: 200px;
   height: 200px;
 }
-
-
-
 #firstcol{
   display: flex;
   flex-direction: column;
-width: 33.333%;
-background-size: cover;
 
 }
-#secondcol{
-  width: 33.33333%;
+#abtbox{
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutt{
+color: #FFFFFF;
+font-weight: 100px;
+font-size: 40px;
+text-align: center;
+vertical-align: middle;
+line-height: 300px;
+background-color: #FF0000;
+
+}
+#firstrow{
+  display: flex;
+  flex-direction: column;
+
+
 }
 .container{
   display: flex;
@@ -62,23 +70,16 @@ float: left;
   width: 33.333%;
 }
 .box1{
-  width: 100%;
+  width: 20%;
   height: 200px;
   background-size: cover;
   font-size: 10px;
-
-}
-#middletext{
-  color: #BAD7F2;
 }
 #abtbox{
-      display: flex;
-      flex-direction: row;
+  position: relative;
       width: 100%;
       height: 600px;
-    /*background-color:#A53860;*/
-    background-color: #AD7A99;
-
+      background-color:#000000;
 
 }
 /*
@@ -91,14 +92,12 @@ top: 4.7em;
 #clothes{
 
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
- font-weight: 100px;
-  font-size: 20px;
+  font-weight: 100px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
-  background-image: url("clothes3.jpg");
-background-size: 100%;
-opacity: 0.8;
+  line-height: 300px;
+  background-image: url("clothes1.jpg");
 
 
 }
@@ -115,34 +114,34 @@ opacity: 0.8;
 #sc{
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 100px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
-  background-image: url("selfcare.jpg");
-opacity: 0.8;
+  line-height: 300px;
+  background-image: url("selfcare4.jpg");
+
 }
 #school{
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 100px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
+  line-height: 300px;
   background-image: url("school.jpg");
-opacity: 0.8;
+
 
 }
 #food{
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 100px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
+  line-height: 300px;
   background-image: url("food.jpg");
-opacity: 0.8;
 
+  color: black;
 
 }
 #food::after{
@@ -157,12 +156,12 @@ opacity: 0.8;
 #time{
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 100px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
+  line-height: 300px;
   background-image: url("time2.jpg");
-opacity: 0.8;
+
 
 }
 #time::after{
@@ -180,12 +179,13 @@ border-opacity: 1;*/
 #v{
   font-family: 'Avenir','Avenir Next',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 100px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
-opacity: 0.8;
+  line-height: 300px;
+  display: flex;
   background-image: url("v.jpg");
-  font-weight: bold;
+
 }
 #v::after{
   content: "";
@@ -343,22 +343,21 @@ p{
   text-align: center;
   padding: 35px 35px 35px 35px;
   font-size: 25px;
-  text-align: center;
 
 }
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
 
+
+}
 header{
-  background-color: #680E4B;
-margin-top: 30px;
-margin-bottom: 30px;
+  background-color: #33CCFF;
 }
 #topx{
   float: right;
-}
-body{
-  background-color: #BAD7F2;
-  padding: 30px;
-
 }
 h1{
   color: #111;
@@ -370,8 +369,8 @@ font-size: 80px;
 
 font-family: 'Playfair Display', serif;
 letter-spacing: -1px;
-line-height: 0;
-font-weight: bold;
+line-height: 1;
+
 }
 
 }
@@ -385,6 +384,57 @@ a{
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+/*  background-color: #254E58;*/
+background-color: #FFFFFF;
+}
 
 
 #page{ margin: 20px; }
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
